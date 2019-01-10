@@ -51,6 +51,8 @@
 #define KGSL_PWR_DEL_LIMIT 1
 #define KGSL_PWR_SET_LIMIT 2
 
+#define KGSL_L2PC_QUEUE_TIMEOUT	(64 * 1000)
+
 enum kgsl_pwrctrl_timer_type {
 	KGSL_PWR_IDLE_TIMER,
 };
