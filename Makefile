@@ -684,6 +684,7 @@ KBUILD_CFLAGS	+= $(call cc-disable-warning, address-of-packed-member)
 KBUILD_CFLAGS	+= $(call cc-disable-warning, attribute-alias)
 KBUILD_CFLAGS	+= $(call cc-disable-warning, address-of-packed-member)
 KBUILD_CFLAGS	+= $(call cc-disable-warning, psabi)
+KBUILD_CFLAGS   += $(call cc-disable-warning, misleading-indentation)
 ## hide "error: cast to smaller integer type 'eSapStatus' from 'void *' "
 KBUILD_CFLAGS	+= $(call cc-disable-warning, pointer-to-int-cast)
 
